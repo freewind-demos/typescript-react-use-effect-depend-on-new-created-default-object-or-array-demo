@@ -1,8 +1,7 @@
-TypeScript React "useEffect" with Array Item Change Demo
+TypeScript React "useEffect" Depend on New Created Default Object or Array Demo
 ========================================================
 
-对于`useEffect`，如果直接修改dependency的属性，不会trigger useEffect。
-必须生成一个新的dependency才行，可以手动生成，或者用clone的方式。
+`useEffect`的依赖中，如果有object/array/function类型，需要特别注意。如果它们是以inline形式赋给的默认值，则会在每次render时触发useEffect
 
 ```
 npm install
