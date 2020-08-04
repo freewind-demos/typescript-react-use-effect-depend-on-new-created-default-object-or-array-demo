@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Hello from './hello'
+import ForceReload from './forceReload'
 
 ReactDOM.render(
-  <Hello/>,
+  <ForceReload/>,
   document.body
 )
