@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import ForceReload from './forceReload'
+import ForceReload from './ForceReload'
 
 ReactDOM.render(
   <ForceReload/>,
